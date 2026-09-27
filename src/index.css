@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-quran {
+  font-family: 'Amiri Quran', 'Scheherazade New', 'Amiri', serif;
+  line-height: 2.2;
+  word-spacing: 2px;
+}
+
+.font-uthmani {
+  font-family: 'Scheherazade New', 'Amiri', serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

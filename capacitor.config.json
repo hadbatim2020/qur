@@ -1,0 +1,12 @@
+{
+  "appId": "com.quran.search",
+  "appName": "الباحث القرآني",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
